@@ -1,0 +1,5 @@
+{
+    "scripts": {
+    "start": "concurrently \"npm run server\" \"cd ../frontend && npm start\"",
+    "server": "nodemon server.js"
+}}
