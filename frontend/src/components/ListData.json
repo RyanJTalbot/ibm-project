@@ -1,0 +1,42 @@
+[
+ {
+   "id": 1,
+   "Company Name": "Mindful Journey Resources",
+   "Address": "10065 Old Hammond Hwy",
+   "City": "Baton Rouge",
+   "State": "LA",
+   "ZIP Code": 70816,
+   "Professional Title": "",
+   "Phone Number Combined": "(225) 292-2237",
+   "Website": "",
+   "Location Type": "Private",
+   "Type of Business": "Single Loc"
+ },
+ {
+   "id": 2,
+   "Company Name": "Brown, Jessica L Phd",
+   "Address": "10101 Park Rowe Ave # 200",
+   "City": "Baton Rouge",
+   "State": "LA",
+   "ZIP Code": 70810,
+   "Professional Title": "PHD",
+   "Phone Number Combined": "(225) 769-2200",
+   "Website": "",
+   "Location Type": "Single Loc",
+   "Type of Business": "Private"
+ },
+ {
+   "id": 3,
+   "Company Name": "Burnett, Darla M",
+   "Address": "10101 Park Rowe Ave # 200",
+   "City": "Baton Rouge",
+   "State": "LA",
+   "ZIP Code": 70810,
+   "Professional Title": "",
+   "Phone Number Combined": "(225) 769-2200",
+   "Website": "",
+   "Location Type": "Single Loc",
+   "Type of Business": "Private"
+ }
+]
+
