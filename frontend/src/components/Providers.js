@@ -22,15 +22,13 @@ function SearchProvider() {
 
 	// Search Records here
 	const searchZip = () => {
-		axios
-			.get(`http://localhost:8000/api/v1/employee/searchRecord/${search}`)
-			.then((response) => {
-				setZip(response.data);
-			});
+		axios.get(`http://localhost:8000/provider/${search}`).then((response) => {
+			setZip(response.data);
+		});
 	};
 
 	const loadZipAgain = () => {
-		var response = fetch('http://localhost:5000/api/v1/employee')
+		var response = fetch('http://localhost:8000/provider')
 			.then(function (response) {
 				return response.json();
 			})
@@ -68,12 +66,12 @@ function SearchProvider() {
 						<table class='table table-hover  table-striped table-bordered ml-4 '>
 							<thead>
 								<tr>
-									<th>Name</th>
-									<th>Surname</th>
-									<th>Email</th>
-									<th>Phone</th>
-									<th>Salary</th>
-									<th>Image</th>
+									<th>Company</th>
+									<th>Address</th>
+									<th>City</th>
+									<th>Zip</th>
+									<th>Phone Number:</th>
+									<th>Website:</th>
 								</tr>
 							</thead>
 							<tbody>
