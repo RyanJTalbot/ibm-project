@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 const ProviderSchema = new mongoose.Schema({
 	name: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	address: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	city: {
 		type: String,
@@ -19,12 +19,12 @@ const ProviderSchema = new mongoose.Schema({
 		// required: true,
 	},
 	zip_code: {
-		type: String,
-		required: true,
+		type: Number,
+		// required: true,
 	},
 	phone_number: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	Website: {
 		type: String,
@@ -32,6 +32,6 @@ const ProviderSchema = new mongoose.Schema({
 	},
 });
 
-const Provider = mongoose.model('Provider', ProviderSchema);
+const Provider = mongoose.model('provider', ProviderSchema);
 
 module.exports = Provider;

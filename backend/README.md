@@ -16,11 +16,10 @@ Potential issues:
 
 working on:
 
-- populating mongodb with data
-
-if mongoose int32 is needed: https://github.com/vkarpov15/mongoose-int32
-
 TODO:
 
 - add dotenv file?
-- Error in the routes file
+- add cors
+
+providers can be found at:
+http://localhost:8000/provider

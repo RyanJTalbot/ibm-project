@@ -1,5 +1,9 @@
 {
     "scripts": {
-    "start": "concurrently \"npm run server\" \"cd ../frontend && npm start\"",
-    "server": "nodemon server.js"
-}}
+
+        "stat": "nodemon server.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.2"
+    }
+}
