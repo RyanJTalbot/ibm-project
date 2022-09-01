@@ -5,12 +5,16 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 // const connectDB = require('./config/db');
 // const Router = require('./routes/routes.js');
 
 // Set express to the variable app
 const app = express();
+
+// Use cors
+app.use(cors());
 
 // Routes
 const provider = require('./routes/provider');
